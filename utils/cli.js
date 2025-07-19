@@ -64,7 +64,7 @@ const options = {
 
 const cli = meow(helpText, options);
 
-// adding commands
+
 cli.commands = commands;
 
 module.exports = cli;
